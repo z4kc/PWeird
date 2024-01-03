@@ -31,7 +31,7 @@ pip install termcolor
 pip install pyfiglet
 pip install os
 
-python .password
+python password.py
 
                break;;
 	[nN] ) echo " \033[1;32m Exiting...\033[0m"  ;
