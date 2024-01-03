@@ -1,5 +1,6 @@
 # PWeird
 # An attempt of one password breaker
+# DONT INSTLAL THAT TOOL
 if you want to test this tool write on your termux:
 
 pkg install git
