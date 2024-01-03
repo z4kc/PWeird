@@ -1,17 +1,3 @@
-# PWeird
-# An attempt of one password breaker
-# DONT INSTALL THAT TOOL
-if you want to test this tool write on your termux:
+# d i s c l a i m e r
+# DONT INSTALL THAT TOOL IF U CARE 'BOUT OUR INFORMATIONS, AND YOUR TERMUX TERMINAL!
 
-pkg install git
-
-git clone
-https://github.com/ixzzxitado/PWeird
-
-cd PWeird
-
-sh start
-
-# Have Fun!
-
-# This tool its in BETA, please dont be rude.
