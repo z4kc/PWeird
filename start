@@ -1,0 +1,46 @@
+#!bin/bash
+chmod +x *
+
+while true; do
+
+clear
+
+echo " \033[1;32m [!]\033[0m \033[1;33m Choose An Option!\033[0m"   
+echo ' '
+echo  " \033[1;33m [?]\033[0m \033[1;31m Want install the program?(y/n)\033[0m"      
+echo ' '
+read -p "~/ToolZy $ " yn
+
+case $yn in
+        [yY] ) echo -e "\033[1;31m Starting...\033[0m" ;
+clear
+          sleep 2
+echo " \033[1;32m Installing Requests...\033[0m"    
+
+sleep 0.5
+
+clear
+
+pkg upgrade && pkg update
+
+sleep 0.5
+
+pkg install python
+pip install random
+pip install termcolor
+pip install pyfiglet
+pip install os
+
+python .password
+
+               break;;
+	[nN] ) echo " \033[1;32m Exiting...\033[0m"  ;
+                exit;
+	*  echo  " \033[1;33m [!]\033[0m \033[5;30m Invalid Option \033[0m"  ;
+esac
+
+sleep 3
+
+clear
+
+done
